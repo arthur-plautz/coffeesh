@@ -8,7 +8,6 @@ class SchemaSampler(SchemaValidator):
 
     def _generate_value(self, value_type, value_range=(0,10)):
         s, e = value_range
-        print(s,e)
         value_types = {
             "str": "-",
             "int": self._rand(s, e),
