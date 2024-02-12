@@ -1,0 +1,12 @@
+id: int
+date: str
+water_wait: float
+water_qtd: float
+coffee_brand: str
+coffee_type: str
+coffee_qtd: float
+coffee_roast: str
+filter_loss: float
+grinder_clicks: int
+phases_duration: list
+notes: list
