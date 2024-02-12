@@ -7,20 +7,20 @@ water_wait:
   range: [0, 30]
 water_qtd:
   type: float
-  range: [0, 500]
+  range: [300, 500]
 coffee_brand:
   type: str
 coffee_type:
   type: str
 coffee_qtd:
   type: float
-  range: [0, 30]
+  range: [18, 30]
 coffee_roast:
   type: str
   options: [light, medium, dark]
 filter_loss:
   type: float
-  range: [0, 50]
+  range: [10, 50]
 grinder_clicks:
   type: int
   range: [20, 40]

@@ -11,7 +11,7 @@ class SchemaSampler(SchemaValidator):
         value_types = {
             "str": "-",
             "int": self._rand(s, e),
-            "float": sum([0.1 for _ in range(s, self._rand(s, e))]),
+            "float": sum([1 for _ in range(s, self._rand(s, e)*10)])/10,
         }
         return value_types.get(value_type)
 
@@ -47,8 +47,8 @@ class SchemaSampler(SchemaValidator):
         generation = type_generation.get(expected_type)
         return generation(field)
 
-    def _rand(self, min=0, max=10):
-        return np.random.randint(min, max)
+    def _rand(self, low=0, high=10):
+        return np.random.randint(low=low, high=high)
 
     def _save(self, data, path):
         with open(path, 'w') as yaml_file:
