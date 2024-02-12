@@ -1,12 +1,33 @@
-id: int
-date: str
-water_wait: float
-water_qtd: float
-coffee_brand: str
-coffee_type: str
-coffee_qtd: float
-coffee_roast: str
-filter_loss: float
-grinder_clicks: int
-phases_duration: list
-notes: list
+id:
+  type: int
+date:
+  type: str
+water_wait:
+  type: float
+  range: [0, 30]
+water_qtd:
+  type: float
+  range: [0, 500]
+coffee_brand:
+  type: str
+coffee_type:
+  type: str
+coffee_qtd:
+  type: float
+  range: [0, 30]
+coffee_roast:
+  type: str
+  options: [light, medium, dark]
+filter_loss:
+  type: float
+  range: [0, 50]
+grinder_clicks:
+  type: int
+  range: [20, 40]
+phases_duration:
+  type: list
+  length: 3
+  items_type: float
+notes:
+  type: list
+  items_type: str
