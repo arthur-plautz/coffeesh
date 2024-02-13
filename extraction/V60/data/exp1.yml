@@ -1,0 +1,15 @@
+id: 1
+date: 13/02/2024
+coffee_brand: pronova
+coffee_type: frutado
+coffee_roast: light
+coffee_qtd: 24
+grinder_clicks: 30
+water_qtd: 500
+water_wait: 111.29
+filter_loss: 100
+phases_duration:
+- 74.33
+- 10
+- 191.29
+notes: [bitter, linear, plain, burnt]

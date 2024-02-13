@@ -2,12 +2,6 @@ id:
   type: int
 date:
   type: str
-water_wait:
-  type: float
-  range: [0, 30]
-water_qtd:
-  type: float
-  range: [300, 500]
 coffee_brand:
   type: str
 coffee_type:
@@ -18,12 +12,18 @@ coffee_qtd:
 coffee_roast:
   type: str
   options: [light, medium, dark]
+grinder_clicks:
+  type: int
+  range: [18, 30]
+water_wait:
+  type: float
+  range: [0, 30]
+water_qtd:
+  type: float
+  range: [300, 500]
 filter_loss:
   type: float
   range: [10, 50]
-grinder_clicks:
-  type: int
-  range: [20, 40]
 phases_duration:
   type: list
   length: 3
