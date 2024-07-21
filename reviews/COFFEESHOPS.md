@@ -96,5 +96,5 @@ Classificação:
 - Ambiente: **4.1**
 
 Informações:
-- Localização: Centro
+- Localização: Campeche
 - Instagram: https://www.instagram.com/botanicofloripa/
